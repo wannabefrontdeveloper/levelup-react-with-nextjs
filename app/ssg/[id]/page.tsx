@@ -1,7 +1,7 @@
 import {RenderingInfo} from '@/ui/rendering-info';
 import { notFound } from 'next/navigation';
 
-export async function getnerateStaticParams() {
+export async function generateStaticParams() {
     return [{id: 1}, {id: 2}]
 }
 
